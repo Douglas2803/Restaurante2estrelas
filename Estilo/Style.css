@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(2, 2, 2, 0.2);
+    margin: 0px;
+}
+header{
+    background-color: rgba(196, 175, 99,0.4);
+    height: 150px;
+    size: 150px;
+}
+
+.title{
+    float: left;
+    color: white;
+    font-family:fantasy;
+}
+.title img{
+height: 150px;
+width: 400px;
+
+}
+
+.navegacao{
+    float: right;
+    margin: 25px 100px;
+    padding: auto;
+    
+}
+
+.navegacao li{
+    display: inline-block;
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-top: 25px;
+    list-style: none;
+    border-radius: 25px;
+
+}
+
+.navegacao li a{
+    background-color: rgba(36, 36, 36, 0.5);
+    display: block ;
+    padding: 18px 48px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+
+}
+
+.navegacao li a:hover {
+    background-color: rgba(0, 0, 0,0.8);
+    color:white;
+}
+
+
+main{
+    background-image:url(../Imagens/banner-home-1.jpg);
+    background-position: right center;
+    background-size: cover;
+    height: 1406px;
+
+}
+
