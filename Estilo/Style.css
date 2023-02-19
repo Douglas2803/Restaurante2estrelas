@@ -102,7 +102,7 @@ main {
 .slider {
     margin: 36px auto;
     width: 1500px;
-    height: 9092px;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -187,19 +187,6 @@ main {
     margin-top: 40px;
 }
 
-/* verificar porque não funciona */
-#radio1:checked~.navigation-auto .auto-btn1 {
-    background-color: rgb(72, 197, 139);
-}
-
-#radio2:checked~.navigation-auto .auto-btn2 {
-    background-color: aliceblue;
-}
-
-#radio3:checked~.navigation-auto .auto-btn3 {
-    background-color: aliceblue;
-}
-
-#radio4:checked~.navigation-auto .auto-btn4 {
-    background-color: aliceblue;
+.manual-btn.active {
+  background-color: white;
 }
