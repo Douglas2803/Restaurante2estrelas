@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,11 @@
     <meta name="keywords" content="Restaurante,Michelin,Giacomelli Gastronomia">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Giacomelli Gastronomia</title>
-    
+
     <link rel="stylesheet" href="Estilo/Style.css">
+    <script src="./script.js" defer></script>
 </head>
+
 <body>
 
     <header>
@@ -30,22 +33,62 @@
 
         <div class="quadro">
 
-            <article class="quadro-1">
+            <section class="quadro-1">
 
                 <div class="agendamento">
                     <h1>agendamento</h1>
                 </div>
 
-                
                 <div class="historia">
                     <h1>história</h1>
                 </div>
 
-            </article> 
+            </section>
+
+            <section class="slider">
+                
+                <div class="slides">
+                    
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    
+                    <div class="slide first">
+                        <img src="/Imagens/comida-1.jpg" alt="comida 1">
+                    </div>
+                    <div class="slide">
+                        <img src="/Imagens/comida-2.jpg" alt="comida 2">
+                    </div>
+                    <div class="slide">
+                        <img src="/Imagens/comida-3.jpg" alt="comida 3">
+                    </div>
+                    <div class="slide">
+                        <img src="/Imagens/comida-4.jpg" alt="comida 4">
+                    </div>
+                    
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+
+                </div>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+
+            </section>
 
         </div>
 
     </main>
-    
+
 </body>
+
 </html>
