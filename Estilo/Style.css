@@ -89,33 +89,54 @@ main {
 }
 
 .agendamento {
-    background-color: rgb(9, 21, 243);
+    background-color: rgba(196, 175, 99, 0.443);
     padding: 1em 5em;
     border: solid 1px white;
+    border-radius: 3px;
     text-align: center;
-    width: 40rem;
+    width: 48rem;
     margin-top: 2em;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.365);
 }
 
 .agendamento h1{
     font-size: 2rem;
-    color: brown;
+    color: white;
+    text-shadow: 1px 1px black;
+    padding: 1em 1em;
+}
+
+.agendamento p{
+    font-size: 1.4rem;
+    text-indent: 0.5rem;
+    text-align: justify;
+
 }
 
 .historia {
-    background-color: rgb(114, 243, 9);
+    background-color: rgba(196, 175, 99, 0.443);
     padding: 1em 5em;
     border: solid 1px white;
     text-align: center;
-    width: 40rem;
+    width: 48rem;
     margin-top: 2em;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.365);
 
 }
 
 .historia h1{
-    font-size: 2rem; 
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 1px black;
+    padding: 1em 1em;
 }
 
+.historia p{
+    font-size: 1.4rem;
+    text-indent: 0.5rem;
+    text-align: justify;
+
+}
 
 
 .slider {
